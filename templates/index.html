@@ -120,7 +120,7 @@
     <input type="time" id="start-time" name="start-time" required>
     <label for="break-time">Break Time (Minutes)</label>
     <input type="number" id="break-time" name="break-time" required step="1">
-    <label for="gamezone-time">Do you have Gamezone Time?</label>
+    <label for="gamezone-time">Have you been to the GameZone Today?</label>
     <div class="radio-group">
         <input type="radio" id="gamezone-time-yes" name="gamezone-time" value="yes">
         <label for="gamezone-time-yes">Yes</label>
@@ -129,7 +129,7 @@
     </div>
     <input type="submit" value="Calculate"><br>
     {% if result %}
-    <div class="result">Hurrah!, You can leave at:{{result}}</div>
+    <div class="result">Hurrah! You can leave at:{{result}}</div>
     {% endif %}
     <div class="watermark">Copyright &copy; 2023 Created by Rutvik and Paresh</div>
 
