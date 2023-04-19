@@ -28,7 +28,6 @@ def calculate_time(start_time, break_time, gamezone_time):
         total_work_time -= timedelta(minutes=remaining_time_minutes)
     else:
         total_work_time += timedelta(minutes=abs(remaining_time_minutes))
-    print("End time is:", total_work_time.strftime("%H:%M"))
     return total_work_time.strftime("%H:%M")
 
 
